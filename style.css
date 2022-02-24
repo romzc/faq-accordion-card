@@ -5,8 +5,8 @@
     --soft-red: hsl(14, 88%, 65%);
 
     /* Gradient background */
-    --soft-violet: hsl(273, 75%, 66%);
-    --soft-blue: hsl(240, 73%, 65%);
+    --soft-violet-gradient: hsl(273, 75%, 66%);
+    --soft-blue-gradient: hsl(240, 73%, 65%);
    /* NEUTRAL */
     /* text */
     --very-dark-grayish-blue: hsl(237, 12%, 33%);
@@ -32,7 +32,7 @@ body {
     align-content: center;
     align-items: center;
 
-    background-color: var(--soft-violet);
+    background-image: linear-gradient(var(--soft-violet-gradient), var(--soft-blue-gradient));
 
     
 }
